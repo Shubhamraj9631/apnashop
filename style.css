@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F6FF;
+    font-family: "Montserrat";
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 99;
+}
+.logo a{
+  font-size: 30px;
+    color: #FF6500;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cart-navbar i{
+    display: none;
+}
+.search-container{
+    background-color:rgb(240,245,255);
+    height: 50px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.search-container i{
+ width: 50px;
+ padding-left: 10px;
+ font-size: 20px;
+}
+.search-container input{
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: unset;
+    border: none;
+    font-size: 18px;
+    
+  }
+ 
+  input:focus {
+    outline: none;
+    border: none;
+}
+.end-navbar li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.end-navbar li i{
+     margin-left: 10px;
+    font-size: 25px;
+    color: #FF6500;
+}
+
+/* <!--------------- container part------------- --> */
+
+.removeunder-image{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* position: relative;
+    z-index: 1; */
+
+}
+.container-chield{
+    height: 150px;
+    width: 96%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.catergery-details{
+    font-weight: bold;
+}
+
+
+/* ==================================premium-product-container========================== */
+
+
+.Best-Gadgets-Appliances{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Best-Gadgets-Appliances-parents{
+    width: 96%;
+    height: 400px;
+    background-color: white;
+}
+.Best-Gadgets-Appliances-right-side i{
+  color: blue;
+  font-size: 25px;
+}
+.left-side-R-side-paresnts{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.image-paresnts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.Best-Gadgets-Appliances-product-catergry{
+    line-height: 25px;
+    height: 300px;
+    margin-top: 20px;
+    width: 15%;
+    border: 1px solid rgba(226, 64, 14, 0.12);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+
+}
+.Best-Gadgets-Appliances-product-catergry img{
+   margin-left: 20%;
+   margin-top: 20px;
+    
+}
+.Best-Gadgets-Appliances-product-catergry p{
+    padding-top: 80px;
+    text-align: center;
+    overflow-y: hidden;
+}
+.Best-Gadgets-Appliances-product-catergry h1{
+    text-align: center;
+    font-size: 20px;
+    overflow-y: hidden;
+}
+
+
+/* <!-- ===============Best Gadgets & Appliances================--> */
+
+.Best-Gadgets-Appliances{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Best-Gadgets-Appliances-parents{
+    width: 96%;
+    height: 400px;
+    background-color: white;
+}
+.Best-Gadgets-Appliances-right-side i{
+  color: rgb(233, 233, 238);
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.user{
+    padding-left: 12px;
+    padding-top: 10px;
+
+}
+.left-side-R-side-paresnts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.image-paresnts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.Best-Gadgets-Appliances-product-catergry{
+    height: 300px;
+    margin-top: 20px;
+    width: 15%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    
+}
+.Best-Gadgets-Appliances-product-catergry img{
+   margin-left: 20%;
+   margin-top: 20px;
+    
+}
+.Best-Gadgets-Appliances-product-catergry p{
+    padding-top: 80px;
+    text-align: center;
+    overflow-y: hidden;
+}
+.Best-Gadgets-Appliances-product-catergry h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    overflow-y: hidden;
+}
+
+
+
+/* ======================================footer====================================== */
+
+.footer-parents{
+    height: 500px;
+    background-color: rgb(27, 25, 25);
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.apnashop-footer{
+    color: #FF6500;
+    /* margin-top:-50px; */
+}
+.contact{
+    font-weight: bold;
+    color: wheat;
+}
+.footer-parents ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.footer-parents ul li a{
+    text-decoration: none;
+    color: rgb(174, 168, 168);
+   
+}
+.footer-chield-line{
+    border: 1px solid rgb(255,255,255,0.12);
+    height: 250px;
+}
+.linked{
+    font-size: 25px;
+
+
+}
+.github{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.facebook{
+   margin-left: 20px;
+   font-size: 25px;
+}
+
+.download-apps{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.apple-palystore{
+    height: 40px;
+    width: 120px;
+    border: 1px solid gold;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+   
+}
+
+.Google-palystore{
+    height: 40px;
+    width: 120px;
+    border: 1px solid gold;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.apple-palystore i{
+   color: yellow;
+   font-size: 25px;
+   padding-top: 5px;
+   padding-left: 5px;
+}
+.Google-palystore i{
+    color: yellow;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+.payment-logo-paresnts{
+    display: flex;
+   margin-top: 20px;
+
+}
+.payment-image{
+    width: 200px;
+}
+
+/**********************Moblie and tablet shoping part second part*********************** */
+
+
+.Best-Gadgets-Appliances-mob{
+    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+/*======= second moble box ======*/
+.Best-Gadgets-Appliances-second-mob{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*======= second moble box ======*/
+
+.Best-Gadgets-Appliances-left-side-mob h1{
+    font-size: 25px;
+}
+.Best-Gadgets-Appliances-right-side-mob{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.Best-Gadgets-Appliances-right-side-mob a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+} 
+.upper-side{
+    margin-top: -70px;
+}
+
+ .mob-price-details{
+    text-decoration: none;
+ }
+.model-name{
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 14px;
+    color: black;
+}
+.model-name:hover{
+    color: #FF6500;
+}
+
+.metrola-rating{
+    font-size: 16px;
+    padding-top: 5px;
+    color: rgb(47, 45, 45);
+    font-weight: 600;
+    text-align: center;
+
+}
+.metrola-rating i{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #FF6500;
+    
+}
+.phone-price-details{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.origanl-rate h1{
+    font-size: 14px;
+    color: black;
+}
+.offer-rate h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(72, 69, 69);
+    text-decoration: line-through;
+}
+.total-off h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(80,156,84);
+}
+/*============================= @media query=============================== */
+
+@media only screen and (max-width: 600px) {
+   
+    header{
+        height:120px;
+        width: 100%;
+        display: flex;
+    }
+
+
+
+
+             .logo a{
+             font-size: 25px;
+             margin-top: 10px;
+             color: #FF6500;
+             }
+
+             .cart-navbar i{
+              display: block;
+              padding-left: 200px;
+              font-size: 25px;
+              color: #FF6500;
+              
+            }
+            .container{
+                padding-top: 130px;
+             
+            
+            }
+           
+            .search-container{
+              width: 400px;
+              height: 45px;
+              margin-left:20px;
+              margin-right: 20px;
+              border-radius: 5px;
+             
+             }
+             .search-container i{
+               font-size: 16px;
+               }
+               .search-container input{
+                font-size: 14px;
+                }
+                input:focus {
+                    outline: none;
+                    border: none;
+                }
+
+            .end-navbar li{
+            display: none;
+            }
+
+            .container-chield{
+                height: 260px;
+                width: 96%;
+                background-color: white;
+               
+            }
+           
+
+/* ===================premium-product-catergry======================= */
+                     
+                 
+
+.Best-Gadgets-Appliances-parents{
+    width: 96%;
+    /* height: 800px; */
+    height: 100vh;
+    background-color: white;
+}
+
+.Best-Gadgets-Appliances-mob-parents h1{
+    font-size: 20px;
+  }
+
+.Best-Gadgets-Appliances-right-side i{
+    color: rgb(233, 233, 238);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: blue;
+  }
+.user{
+    padding-left: 7px;
+    padding-top: 5px;
+    font-size: 5px;
+
+}
+.left-side-R-side-paresnts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.image-paresnts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.Best-Gadgets-Appliances-product-catergry{
+    height: 220px;
+    margin-top: 20px;
+    width: 42%; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Best-Gadgets-Appliances-product-catergry img{
+   margin-left: 20%;
+   /* margin-top: 20px; */
+    
+}
+.Best-Gadgets-Appliances-product-catergry p{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 14px;
+    overflow-y: hidden;
+}
+.Best-Gadgets-Appliances-left-side h1{
+    font-size: 18px;
+    
+}
+/* ===================Moblie-product-catergry======================= */
+.Best-Gadgets-Appliances-left-side-mob h1{
+    font-size: 16px;
+    
+}
+.Best-Gadgets-Appliances-right-side-mob {
+    height:30px;
+    padding-top: 5px;
+    padding-left: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;   
+
+}
+.Best-Gadgets-Appliances-right-side-mob a{
+    height:30px;
+    font-size: 14px;
+   
+
+}
+.metrola-rating{
+    font-size: 10px;
+    padding-top: 5px;
+    color: rgb(47, 45, 45);
+    font-weight: 600;
+    text-align: center;
+
+}
+.phone-price-details{
+    gap: 5px;
+}
+.metrola-rating i{
+    font-size: 14px;
+    padding-top: 0px;
+
+}
+.mob-price-details p{
+    font-size: 12px;
+    line-height: 15px;
+}
+.origanl-rate h1{
+    font-size: 12px;
+}
+.offer-rate h3{
+    font-size: 12px;
+
+}
+.total-off h6{
+    font-size: 10px;
+
+}
+.upper-side{
+    padding-top: 40px;
+}
+
+/* ======================footer=========================== */
+
+.footer-parents{
+    height: 150vh;
+    background-color: rgb(27, 25, 25);
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+}
+.footer-parents ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.footer-parents ul li a{
+    text-decoration: none;
+    color: rgb(174, 168, 168);
+   
+}
+.footer-chield-line{
+    border: 1px solid rgb(255,255,255,0.12);
+    height: 250px;
+    display: none;
+}
+   
+.linked{
+    font-size: 25px;
+
+
+}
+.github{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.facebook{
+   margin-left: 20px;
+   font-size: 25px;
+}
+
+.footer-chield-2{
+    padding-left: 38px;
+}
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
